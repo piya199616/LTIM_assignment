@@ -17,7 +17,7 @@ connection {
 
 provisioner "file" {
 
-source      = "privatekey/terraform-key.pem"
+source      = "terraform-key.pem"
 destination = "/tmp/terraform-key.pem"
 
 }

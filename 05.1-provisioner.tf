@@ -9,7 +9,7 @@ connection {
     user     = "ec2-user"
     password = ""
     host     = aws_eip.bastion_eip.public_ip
-    private_key = file("privatekey/terraform-key.pem")
+    private_key = file("terraform-key.pem")
   }
 
 
